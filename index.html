@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Carte en ligne de parcs relais en temps réel</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://unpkg.com/maplibre-gl@^5.1.1/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@^5.1.1/dist/maplibre-gl.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="heading">
+            <h1><button id="accueil">🏠</button> 🅿️ Parcs relais en temps réel 🕑</h1>
+        </div>
+        <div id="listings" class="listings"></div>
+
+    </div>
+
+    <div id="map" class="map"></div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
